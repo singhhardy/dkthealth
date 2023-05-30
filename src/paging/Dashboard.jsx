@@ -19,8 +19,8 @@ function Dashboard() {
         <p className='text-light fs-5'>Calls Frequency</p>
         </div>
       </div>
-      <div className='table table-bg py-3'>
-        <table  class="table table-responsive text-light text-center table-stripped table-scroll">
+      <div className='table table-bg py-3 table-scroll'>
+        <table  class="table text-light text-center table-stripped ">
           <thead>
             <tr>
               <th scope="col">Class</th>
