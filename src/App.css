@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+*{
+  --primary-color: #024550;
+  --secondary-color: #CEF6F5 ;
+  --table-bg: #004474;
+  --third-color: #7AC8C7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.primary-text{
+  color: var(--primary-color) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secondary-bg{
+  background: var(--secondary-color) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dec-none{
+  text-decoration: none;
+}
+
+.third-bg{
+  background: var(--third-color) !important;
+}
+
+.table-bg{
+  background: var(--table-bg);
+}
+
+
+.table-scroll{
+  overflow-x: scroll !important;
+}
+
+/* DROPDOWN */
+
+.dropbtn {
+  background-color: #4CAF50;
   color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+/* The container <div> - needed to position the dropdown content */
+.dropdown-2 {
+  position: relative;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-2 a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown-2:hover .dropdown-content-2 {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-2:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.message{
+  background: #d3d2d2;
+}
+
+.page{
+  margin-bottom: 10% !important;
 }
