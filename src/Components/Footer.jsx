@@ -25,14 +25,14 @@ function Footer() {
         </div>
         <div className='col-md'>
           <a href='/MD-List' className='nav-item fs-4 primary-text dec-none'>
-            <span><i className='fa fa-user'></i></span>
-            <p className='fs-6'>MD List</p>
+            <span><i class="fa-solid fa-table-cells-large"></i></span>
+            <p className='fs-6'>Promo Mats</p>
           </a>
         </div>
         <div className='col-md'>
           <a href='/MD-List' className='nav-item fs-4 primary-text dec-none'>
-            <span><i className='fa fa-user'></i></span>
-            <p className='fs-6'>MD List</p>
+            <span><i class="fa-regular fa-calendar-days"></i></span>
+            <p className='fs-6'>Out of Field</p>
           </a>
         </div>
       </div>
